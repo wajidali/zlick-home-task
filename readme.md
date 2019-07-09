@@ -1,6 +1,6 @@
 # ZLICK Home Task
 
-This is a micro service to get transactions and converting them into EURO and then posting them to the we server. 
+This is a micro service to get transactions and converting them into EURO and then posting them to the web server. 
 
 ---
 ## Requirements
