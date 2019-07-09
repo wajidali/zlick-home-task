@@ -15,7 +15,7 @@ async function getTransactions() {
     return new Promise(async (resolve) => {
         console.log("--------Started fetching transactions--------");
         var transactions = [];
-        for(var i=0; i<20; i++) { // change to 100
+        for(var i=0; i<100; i++) { 
             let transaction = await getTransaction();
             transactions.push(transaction);
         }
